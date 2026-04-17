@@ -1,0 +1,29 @@
+{
+  "name": "aster-credit-app",
+  "private": true,
+  "version": "1.0.1",
+  "type": "module",
+  "engines": {
+    "node": ">=20.12.0",
+    "npm": ">=10.5.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "lint": "eslint .",
+    "reinstall:clean": "node ./scripts/reinstall-clean.mjs"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "autoprefixer": "10.4.21",
+    "eslint": "9.25.1",
+    "postcss": "8.5.3",
+    "tailwindcss": "3.4.17",
+    "vite": "5.4.19"
+  }
+}
